@@ -2,7 +2,7 @@ function Home() {
   return (
     <main className="p-6 bg-gray-100">
       <div className="max-w-358 mx-auto hover:max-w-370 hover:shadow-lg transition-all duration-300">
-        <img src="/src/assets/WoodQart-Plywood-Banner-2-1.png" alt="WoodQart Banner" className="rounded-lg"/>
+        <img src="public/assets/WoodQart-Plywood-Banner-2-1.png" alt="WoodQart Banner" className="rounded-lg"/>
       </div>
 
       {/* WoodQart Plywood - All Grade */}
@@ -15,7 +15,7 @@ function Home() {
           {/* CARD 1 */}
           <div className="bg-white rounded-3xl shadow-sm p-8 text-center">
             <div className="w-36 h-36 mx-auto rounded-full border-4 border-orange-500 overflow-hidden mb-6">
-              <img src="/src/assets/1.jpg" alt="" className="w-full h-full object-cover"/>
+              <img src="public/assets/1.jpg" alt="" className="w-full h-full object-cover"/>
             </div>
             <h3 className="text-lg font-semibold mb-3">MARINE GRADE &<br />RED CORE PLY</h3>
             <p className="text-sm text-gray-600 mb-6 leading-relaxed">IS:710 | WATER PROOF | 100% EUCALYPTUS CORE | FULL CORE | GURJAN FACE</p>
@@ -25,7 +25,7 @@ function Home() {
           {/* CARD 2 */}
           <div className="bg-white rounded-3xl shadow-sm p-8 text-center">
             <div className="w-36 h-36 mx-auto rounded-full border-4 border-orange-500 overflow-hidden mb-6">
-              <img  src="/src/assets/2.jpg"  alt=""  className="w-full h-full object-cover"/>
+              <img  src="public/assets/2.jpg"  alt=""  className="w-full h-full object-cover"/>
             </div>
             <h3 className="text-lg font-semibold mb-3">ALTERNATE PLY |<br />RED & WHITE</h3>
             <p className="text-sm text-gray-600 mb-6 leading-relaxed">IS:303 | EUCALYPTUS & POPLAR CORE | FULL CORE | GURJAN FACE</p>
@@ -35,7 +35,7 @@ function Home() {
           {/* CARD 3 */}
           <div className="bg-white rounded-3xl shadow-sm p-8 text-center">
             <div className="w-36 h-36 mx-auto rounded-full border-4 border-orange-500 overflow-hidden mb-6">
-              <img src="/src/assets/3.jpg" alt="" className="w-full h-full object-cover"/>
+              <img src="public/assets/3.jpg" alt="" className="w-full h-full object-cover"/>
             </div>
 
             <h3 className="text-lg font-semibold mb-3">SEMI – ALTERNATE<br />PLYWOOD</h3>
@@ -46,7 +46,7 @@ function Home() {
           {/* CARD 4 */}
           <div className="bg-white rounded-3xl shadow-sm p-8 text-center">
             <div className="w-36 h-36 mx-auto rounded-full border-4 border-orange-500 overflow-hidden mb-6">
-              <img src="/src/assets/4.jpg" alt="" className="w-full h-full object-cover"/>
+              <img src="public/assets/4.jpg" alt="" className="w-full h-full object-cover"/>
             </div>
             <h3 className="text-lg font-semibold mb-3">SUPER MR |<br />COMMERCIAL MR</h3>
             <p className="text-sm text-gray-600 mb-6 leading-relaxed">IS:303 | HARDWOOD CORE | SHORT & FULL CORE | OKOMO FACE</p>
@@ -59,7 +59,7 @@ function Home() {
           {/* CARD 5 */}
           <div className="bg-white rounded-3xl shadow-sm p-8 text-center">
             <div className="w-36 h-36 mx-auto rounded-full border-4 border-orange-500 overflow-hidden mb-6">
-              <img src="/src/assets/5.png" alt="" className="w-full h-full object-cover"/>
+              <img src="public/assets/5.png" alt="" className="w-full h-full object-cover"/>
             </div>
             <h3 className="text-lg font-semibold mb-3">FLUSH DOOR</h3>
             <p className="text-sm text-gray-600 mb-6 leading-relaxed">IS:2202 I HARDWOOD I MIX WOOD I SINGLE, DOUBLE & TRIPLE CORE</p>
@@ -69,7 +69,7 @@ function Home() {
           {/* CARD 6 */}
           <div className="bg-white rounded-3xl shadow-sm p-8 text-center">
             <div className="w-36 h-36 mx-auto rounded-full border-4 border-orange-500 overflow-hidden mb-6">
-              <img  src="/src/assets/6.jpg"  alt=""  className="w-full h-full object-cover"/>
+              <img  src="public/assets/6.jpg"  alt=""  className="w-full h-full object-cover"/>
             </div>
             <h3 className="text-lg font-semibold mb-3">BLOCK BOARD</h3>
             <p className="text-sm text-gray-600 mb-6 leading-relaxed">IS:1659 I HARDWOOD & MIX WOOD I OKUMA & GURJAN FACE</p>
@@ -79,7 +79,7 @@ function Home() {
           {/* CARD 7 */}
           <div className="bg-white rounded-3xl shadow-sm p-8 text-center">
             <div className="w-36 h-36 mx-auto rounded-full border-4 border-orange-500 overflow-hidden mb-6">
-              <img src="/src/assets/7.webp" alt="" className="w-full h-full object-cover"/>
+              <img src="public/assets/7.webp" alt="" className="w-full h-full object-cover"/>
             </div>
 
             <h3 className="text-lg font-semibold mb-3">SHUTTERING PLY</h3>
@@ -90,7 +90,7 @@ function Home() {
           {/* CARD 8 */}
           <div className="bg-white rounded-3xl shadow-sm p-8 text-center">
             <div className="w-36 h-36 mx-auto rounded-full border-4 border-orange-500 overflow-hidden mb-6">
-              <img src="/src/assets/8.webp" alt="" className="w-full h-full object-cover"/>
+              <img src="public/assets/8.webp" alt="" className="w-full h-full object-cover"/>
             </div>
             <h3 className="text-lg font-semibold mb-3">CORE & VENEER</h3>
             <p className="text-sm text-gray-600 mb-6 leading-relaxed">EUCALYPTUS I POPLAR I HARDWOOD I MIC WOOD CORE I SHORT CORE</p>
@@ -114,19 +114,19 @@ function Home() {
           </div>
 
           <div className="p-6 border rounded-lg">
-            <img src="/src/assets/assurance2.png" alt="" className="mx-auto mb-4"/>
+            <img src="public/assets/assurance2.png" alt="" className="mx-auto mb-4"/>
             <h2 className="text-xl font-semibold mb-2">X4 QUADRA PRESSED</h2>
             <p className="text-gray-500">We offer competitive pricing and promise the best deals on all our products.</p>
           </div>
 
           <div className="p-6 border rounded-lg">
-            <img src="/src/assets/assurance3.png" alt="" className="mx-auto mb-4"/>
+            <img src="public/assets/assurance3.png" alt="" className="mx-auto mb-4"/>
             <h2 className="text-xl font-semibold mb-2">GLUE LINE TESTED</h2>
             <p className="text-gray-500">Our logistics network ensures timely delivery to your doorstep.</p>
           </div>
 
           <div className="p-6 border rounded-lg">
-            <img src="/src/assets/assurance4.png" alt="" className="mx-auto mb-4"/>
+            <img src="public/assets/assurance4.png" alt="" className="mx-auto mb-4"/>
             <h2 className="text-xl font-semibold mb-2">BORER TERMITE PROOF</h2>
             <p className="text-gray-500">We prioritize our customers and strive to provide the best service experience.</p>
           </div>
@@ -135,25 +135,25 @@ function Home() {
         <div className="mx-auto mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
 
           <div className="p-6 border rounded-lg">
-            <img src="/src/assets/assurance1.png" alt="" className="mx-auto mb-4"/>
+            <img src="public/assets/assurance1.png" alt="" className="mx-auto mb-4"/>
             <h2 className="text-xl font-semibold mb-2">6 STAGE QUALITY TEST</h2>
             <p className="text-gray-500">We ensure that all our products are authentic and sourced directly from manufacturers.</p>
           </div>
 
           <div className="p-6 border rounded-lg">
-            <img src="/src/assets/assurance2.png" alt="" className="mx-auto mb-4"/>
+            <img src="public/assets/assurance2.png" alt="" className="mx-auto mb-4"/>
             <h2 className="text-xl font-semibold mb-2">BWP & BWR</h2>
             <p className="text-gray-500">We offer competitive pricing and promise the best deals on all our products.</p>
           </div>
 
           <div className="p-6 border rounded-lg">
-            <img src="/src/assets/assurance3.png" alt="" className="mx-auto mb-4"/>
+            <img src="public/assets/assurance3.png" alt="" className="mx-auto mb-4"/>
             <h2 className="text-xl font-semibold mb-2">HEAT RESISTANT</h2>
             <p className="text-gray-500">Our logistics network ensures timely delivery to your doorstep.</p>
           </div>
 
           <div className="p-6 border rounded-lg">
-            <img src="/src/assets/assurance4.png" alt="" className="mx-auto mb-4"/>
+            <img src="public/assets/assurance4.png" alt="" className="mx-auto mb-4"/>
             <h2 className="text-xl font-semibold mb-2">On Time Delivery</h2>
             <p className="text-gray-500">We prioritize our customers and strive to provide the best service experience.</p>
           </div>
@@ -166,23 +166,23 @@ function Home() {
         <div className="mx-auto mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-3">
 
           <div>
-            <img src="/src/assets/WQ-RED-CORE-2.png" alt="" className="mx-auto mb-4"/>
+            <img src="public/assets/WQ-RED-CORE-2.png" alt="" className="mx-auto mb-4"/>
           </div>
 
           <div>
-            <img src="/src/assets/WA-Alternate-2.png" alt="" className="mx-auto mb-4"/>
+            <img src="public/assets/WA-Alternate-2.png" alt="" className="mx-auto mb-4"/>
           </div>
           
           <div>
-            <img src="/src/assets/WQ-SUPER-MR-2.png" alt="" className="mx-auto mb-4"/>
+            <img src="public/assets/WQ-SUPER-MR-2.png" alt="" className="mx-auto mb-4"/>
           </div>
           
           <div>
-            <img src="/src/assets/WQ-MR-2.png" alt="" className="mx-auto mb-4"/>
+            <img src="public/assets/WQ-MR-2.png" alt="" className="mx-auto mb-4"/>
           </div>
           
           <div>
-            <img src="/src/assets/WQ-FLUSH-DOOR-2.png" alt="" className="mx-auto mb-4"/>
+            <img src="public/assets/WQ-FLUSH-DOOR-2.png" alt="" className="mx-auto mb-4"/>
           </div>
         </div>
       </div>
@@ -191,7 +191,7 @@ function Home() {
       <div className="max-w-7xl mx-auto mt-10 text-center">
         <h1 className="text-3xl font-bold">Plywood Uses & Designs</h1>
         <p className="text-gray-500">WoodQart plywood can be use in your daily life explore where and how they are used.</p>
-        <img src="/src/assets/image.png" alt="Plywood Uses & Designs" className="mx-auto mt-4 w-full h-auto rounded-lg shadow-md"/>
+        <img src="public/assets/image.png" alt="Plywood Uses & Designs" className="mx-auto mt-4 w-full h-auto rounded-lg shadow-md"/>
       </div>
 
       {/* Types of Woods & Uses */}
@@ -200,16 +200,16 @@ function Home() {
         <p className="text-gray-500">Discover various types woods use to manufacture plywood and uses.</p>
         <div className="align-center mx-auto mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-3">
           <div>
-            <img src="/src/assets/Eucalyptus-1.png" alt="" className="mx-auto mb-4"/>
+            <img src="public/assets/Eucalyptus-1.png" alt="" className="mx-auto mb-4"/>
           </div>
           <div>
-            <img src="/src/assets/poppler-woods.png" alt="" className="mx-auto mb-4"/>
+            <img src="public/assets/poppler-woods.png" alt="" className="mx-auto mb-4"/>
           </div>
           <div>
-            <img src="/src/assets/Kokaat.png" alt="" className="mx-auto mb-4"/>
+            <img src="public/assets/Kokaat.png" alt="" className="mx-auto mb-4"/>
           </div>
           <div>
-            <img src="/src/assets/Rosewood.png" alt="" className="mx-auto mb-4"/>
+            <img src="public/assets/Rosewood.png" alt="" className="mx-auto mb-4"/>
           </div>
         </div>
       </div>
@@ -223,7 +223,7 @@ function Home() {
           <div className="relative">
             <div className="overflow-hidden rounded-[60%_40%_55%_45%/50%_60%_40%_50%]">
               <img
-                src="/src/assets/Plywood-Factory.jpg"
+                src="public/assets/Plywood-Factory.jpg"
                 alt="Plywood Manufacturing"
                 className="w-full h-full object-cover"
               />
