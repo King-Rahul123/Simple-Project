@@ -1,6 +1,6 @@
 function Home() {
   return (
-    <main className="p-6 bg-gray-100">
+    <main className="p-6 pt-28 bg-[#f3f2ee]">
       <div className="max-w-358 mx-auto hover:max-w-370 hover:shadow-lg transition-all duration-300">
         <img src="/assets/WoodQart-Plywood-Banner-2-1.png" alt="WoodQart Banner" className="rounded-lg"/>
       </div>
@@ -11,89 +11,95 @@ function Home() {
         <p className="text-gray-500">We Are The Largest Plywood & Blockboard Manufacturer & Supplier</p>
 
         {/* Cards 1st row */}
-        <div className="grid grid-cols-1 mt-8 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mt-8 max-w-6xl mx-auto place-items-center">
           {/* CARD 1 */}
-          <div className="bg-white rounded-3xl shadow-sm p-8 text-center">
-            <div className="w-36 h-36 mx-auto rounded-full border-4 border-orange-500 overflow-hidden mb-6">
+          <div className="bg-white rounded-3xl p-6 text-center" src="#">
+            <div className="w-30 h-30 mx-auto rounded-full border-2 border-orange-500 overflow-hidden mb-6">
               <img src="/assets/1.jpg" alt="" className="w-full h-full object-cover"/>
             </div>
             <h3 className="text-lg font-semibold mb-3">MARINE GRADE &<br />RED CORE PLY</h3>
-            <p className="text-sm text-gray-600 mb-6 leading-relaxed">IS:710 | WATER PROOF | 100% EUCALYPTUS CORE | FULL CORE | GURJAN FACE</p>
+            <div className="w-11 h-0.5 bg-orange-500 mx-auto mt-3 rounded-full"></div>
+            <p className="mt-2 text-sm text-gray-600 mb-6 leading-relaxed">IS:710 | WATER PROOF | 100% EUCALYPTUS CORE | FULL CORE | GURJAN FACE</p>
             <button className="bg-orange-500 text-white px-6 py-2 rounded-full font-semibold shadow hover:bg-orange-600 transition">Details & Photos</button>
           </div>
 
           {/* CARD 2 */}
-          <div className="bg-white rounded-3xl shadow-sm p-8 text-center">
-            <div className="w-36 h-36 mx-auto rounded-full border-4 border-orange-500 overflow-hidden mb-6">
+          <div className="bg-white rounded-3xl p-8 text-center">
+            <div className="w-30 h-30 mx-auto rounded-full border-2 border-orange-500 overflow-hidden mb-6">
               <img  src="/assets/2.jpg"  alt=""  className="w-full h-full object-cover"/>
             </div>
             <h3 className="text-lg font-semibold mb-3">ALTERNATE PLY |<br />RED & WHITE</h3>
-            <p className="text-sm text-gray-600 mb-6 leading-relaxed">IS:303 | EUCALYPTUS & POPLAR CORE | FULL CORE | GURJAN FACE</p>
+            <div className="w-11 h-0.5 bg-orange-500 mx-auto mt-3 rounded-full"></div>
+            <p className="mt-2 text-sm text-gray-600 mb-6 leading-relaxed">IS:303 | EUCALYPTUS & POPLAR CORE | FULL CORE | GURJAN FACE</p>
             <button className="bg-orange-500 text-white px-6 py-2 rounded-full font-semibold shadow hover:bg-orange-600 transition">Details & Photos</button>
           </div>
 
           {/* CARD 3 */}
-          <div className="bg-white rounded-3xl shadow-sm p-8 text-center">
-            <div className="w-36 h-36 mx-auto rounded-full border-4 border-orange-500 overflow-hidden mb-6">
+          <div className="bg-white rounded-3xl p-8 text-center">
+            <div className="w-30 h-30 mx-auto rounded-full border-2 border-orange-500 overflow-hidden mb-6">
               <img src="/assets/3.jpg" alt="" className="w-full h-full object-cover"/>
             </div>
-
             <h3 className="text-lg font-semibold mb-3">SEMI – ALTERNATE<br />PLYWOOD</h3>
-            <p className="text-sm text-gray-600 mb-6 leading-relaxed">IS:303 | EUCALYPTUS, POPLAR & HARDWOOD CORE | OKOMO FACE</p>
+            <div className="w-11 h-0.5 bg-orange-500 mx-auto mt-3 rounded-full"></div>
+            <p className="mt-2 text-sm text-gray-600 mb-6 leading-relaxed">IS:303 | EUCALYPTUS, POPLAR & HARDWOOD CORE | OKOMO FACE</p>
             <button className="bg-orange-500 text-white px-6 py-2 rounded-full font-semibold shadow hover:bg-orange-600 transition">Details & Photos</button>
           </div>
 
           {/* CARD 4 */}
-          <div className="bg-white rounded-3xl shadow-sm p-8 text-center">
-            <div className="w-36 h-36 mx-auto rounded-full border-4 border-orange-500 overflow-hidden mb-6">
+          <div className="bg-white rounded-3xl p-8 text-center">
+            <div className="w-30 h-30 mx-auto rounded-full border-2 border-orange-500 overflow-hidden mb-6">
               <img src="/assets/4.jpg" alt="" className="w-full h-full object-cover"/>
             </div>
             <h3 className="text-lg font-semibold mb-3">SUPER MR |<br />COMMERCIAL MR</h3>
-            <p className="text-sm text-gray-600 mb-6 leading-relaxed">IS:303 | HARDWOOD CORE | SHORT & FULL CORE | OKOMO FACE</p>
+            <div className="w-11 h-0.5 bg-orange-500 mx-auto mt-3 rounded-full"></div>
+            <p className="mt-2 text-sm text-gray-600 mb-6 leading-relaxed">IS:303 | HARDWOOD CORE | SHORT & FULL CORE | OKOMO FACE</p>
             <button className="bg-orange-500 text-white px-6 py-2 rounded-full font-semibold shadow hover:bg-orange-600 transition">Details & Photos</button>
           </div>
         </div>
 
         {/* Cards 2nd row */}
-        <div className="grid grid-cols-1 mt-8 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mt-5 max-w-6xl mx-auto place-items-center">
           {/* CARD 5 */}
-          <div className="bg-white rounded-3xl shadow-sm p-8 text-center">
-            <div className="w-36 h-36 mx-auto rounded-full border-4 border-orange-500 overflow-hidden mb-6">
+          <div className="bg-white rounded-3xl p-8 text-center">
+            <div className="w-30 h-30 mx-auto rounded-full border-2 border-orange-500 overflow-hidden mb-6">
               <img src="/assets/5.png" alt="" className="w-full h-full object-cover"/>
             </div>
             <h3 className="text-lg font-semibold mb-3">FLUSH DOOR</h3>
-            <p className="text-sm text-gray-600 mb-6 leading-relaxed">IS:2202 I HARDWOOD I MIX WOOD I SINGLE, DOUBLE & TRIPLE CORE</p>
+            <div className="w-11 h-0.5 bg-orange-500 mx-auto mt-3 rounded-full"></div>
+            <p className="mt-2 text-sm text-gray-600 mb-6 leading-relaxed">IS:2202 I HARDWOOD I MIX WOOD I SINGLE, DOUBLE & TRIPLE CORE</p>
             <button className="bg-orange-500 text-white px-6 py-2 rounded-full font-semibold shadow hover:bg-orange-600 transition">Details & Photos</button>
           </div>
 
           {/* CARD 6 */}
-          <div className="bg-white rounded-3xl shadow-sm p-8 text-center">
-            <div className="w-36 h-36 mx-auto rounded-full border-4 border-orange-500 overflow-hidden mb-6">
+          <div className="bg-white rounded-3xl p-8 text-center">
+            <div className="w-30 h-30 mx-auto rounded-full border-2 border-orange-500 overflow-hidden mb-6">
               <img  src="/assets/6.jpg"  alt=""  className="w-full h-full object-cover"/>
             </div>
             <h3 className="text-lg font-semibold mb-3">BLOCK BOARD</h3>
-            <p className="text-sm text-gray-600 mb-6 leading-relaxed">IS:1659 I HARDWOOD & MIX WOOD I OKUMA & GURJAN FACE</p>
+            <div className="w-11 h-0.5 bg-orange-500 mx-auto mt-3 rounded-full"></div>
+            <p className="mt-2 text-sm text-gray-600 mb-6 leading-relaxed">IS:1659 I HARDWOOD & MIX WOOD I OKUMA & GURJAN FACE</p>
             <button className="bg-orange-500 text-white px-6 py-2 rounded-full font-semibold shadow hover:bg-orange-600 transition">Details & Photos</button>
           </div>
 
           {/* CARD 7 */}
-          <div className="bg-white rounded-3xl shadow-sm p-8 text-center">
-            <div className="w-36 h-36 mx-auto rounded-full border-4 border-orange-500 overflow-hidden mb-6">
+          <div className="bg-white rounded-3xl p-8 text-center">
+            <div className="w-30 h-30 mx-auto rounded-full border-2 border-orange-500 overflow-hidden mb-6">
               <img src="/assets/7.webp" alt="" className="w-full h-full object-cover"/>
             </div>
-
             <h3 className="text-lg font-semibold mb-3">SHUTTERING PLY</h3>
-            <p className="text-sm text-gray-600 mb-6 leading-relaxed">25 KG - 30KG I MR I MUF I PF I RED & BLACK FILM I MIRROR FINISH</p>
+            <div className="w-11 h-0.5 bg-orange-500 mx-auto mt-3 rounded-full"></div>
+            <p className="mt-2 text-sm text-gray-600 mb-6 leading-relaxed">25 KG - 30KG I MR I MUF I PF I RED & BLACK FILM I MIRROR FINISH</p>
             <button className="bg-orange-500 text-white px-6 py-2 rounded-full font-semibold shadow hover:bg-orange-600 transition">Details & Photos</button>
           </div>
 
           {/* CARD 8 */}
-          <div className="bg-white rounded-3xl shadow-sm p-8 text-center">
-            <div className="w-36 h-36 mx-auto rounded-full border-4 border-orange-500 overflow-hidden mb-6">
+          <div className="bg-white rounded-3xl p-8 text-center">
+            <div className="w-30 h-30 mx-auto rounded-full border-2 border-orange-500 overflow-hidden mb-6">
               <img src="/assets/8.webp" alt="" className="w-full h-full object-cover"/>
             </div>
             <h3 className="text-lg font-semibold mb-3">CORE & VENEER</h3>
-            <p className="text-sm text-gray-600 mb-6 leading-relaxed">EUCALYPTUS I POPLAR I HARDWOOD I MIC WOOD CORE I SHORT CORE</p>
+            <div className="w-11 h-0.5 bg-orange-500 mx-auto mt-3 rounded-full"></div>
+            <p className="mt-2 text-sm text-gray-600 mb-6 leading-relaxed">EUCALYPTUS I POPLAR I HARDWOOD I MIC WOOD CORE I SHORT CORE</p>
             <button className="bg-orange-500 text-white px-6 py-2 rounded-full font-semibold shadow hover:bg-orange-600 transition">Details & Photos</button>
           </div>
         </div>
@@ -102,60 +108,62 @@ function Home() {
       {/* WoodQart Assurance & Promise */}
       <div className="max-w-7xl mx-auto mt-15 text-center">
         <h1 className="text-3xl font-bold">WoodQart Assurance & Promise</h1>
-        <div className="w-115 h-1 bg-orange-500 mx-auto mt-3 rounded-full"></div>
-        <hr></hr>
+        <div className="relative mt-4">
+          <div className="h-px bg-gray-300 w-280 ml-20"></div>
+          <div className="absolute left-1/2 -translate-x-1/2 -top-px h-0.5 w-115 bg-orange-400 rounded-full"></div>
+        </div>
 
         {/* Cards 1st row */}
         <div className="mx-auto mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
-          <div className="p-6 border rounded-lg">
-            <i className="mx-auto mb-4" aria-hidden="true"></i>
+          <div className="p-6 border rounded-sm bg-white border-orange-700">
+            <img src="/assets/W.png" alt="" className="mx-auto mb-1 h-15 w-18"/>
             <h2 className="text-xl font-semibold mb-2">WIDE RANGE</h2>
-            <p className="text-gray-500">We ensure that all our products are authentic and sourced directly from manufacturers.</p>
+            <p className="text-xs">WoodQart is the largest manufacturer and supplier of all grade Plywood, Block Board, Flush Doors, Shuttering Ply, Core and Veneers. All your need under same roof.</p>
           </div>
 
-          <div className="p-6 border rounded-lg">
-            <img src="/assets/assurance2.png" alt="" className="mx-auto mb-4"/>
+          <div className="p-6 border rounded-sm bg-white border-orange-700">
+            <img src="/assets/X.png" alt="" className="mx-auto mb-1 h-15 w-18"/>
             <h2 className="text-xl font-semibold mb-2">X4 QUADRA PRESSED</h2>
-            <p className="text-gray-500">We offer competitive pricing and promise the best deals on all our products.</p>
+            <p className="text-xs">All WoodQart we ensure uniform bonding and distribution of adhesive thought the panel, which involve pressing the layers of veneers in the plywood panel four times.</p>
           </div>
 
-          <div className="p-6 border rounded-lg">
-            <img src="/assets/assurance3.png" alt="" className="mx-auto mb-4"/>
+          <div className="p-6 border rounded-sm bg-white border-orange-700">
+            <img src="/assets/Glue.png" alt="" className="mx-auto mb-1 h-15 w-18"/>
             <h2 className="text-xl font-semibold mb-2">GLUE LINE TESTED</h2>
-            <p className="text-gray-500">Our logistics network ensures timely delivery to your doorstep.</p>
+            <p className="text-xs">GLT treatment enhances the bonding strength of the glue lines, making them more resistant to moisture and environmental factors. It helps to prevent delamination and ensures the longevity and durability of the plywood, especially in humid or damp conditions.</p>
           </div>
 
-          <div className="p-6 border rounded-lg">
-            <img src="/assets/assurance4.png" alt="" className="mx-auto mb-4"/>
+          <div className="p-6 border rounded-sm bg-white border-orange-700">
+            <img src="/assets/Proof.png" alt="" className="mx-auto mb-1 h-15 w-18"/>
             <h2 className="text-xl font-semibold mb-2">BORER TERMITE PROOF</h2>
-            <p className="text-gray-500">We prioritize our customers and strive to provide the best service experience.</p>
+            <p className="text-xs">WoodQart ensures that the plywood remains protected against insect infestations, particularly borers and termites. It makes the plywood suitable for use in areas prone to insect attacks, such as tropical or humid regions.</p>
           </div>
         </div>
         {/*Cards 2nd row */}
         <div className="mx-auto mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
 
-          <div className="p-6 border rounded-lg">
-            <img src="/assets/assurance1.png" alt="" className="mx-auto mb-4"/>
+          <div className="p-6 border rounded-sm bg-white border-orange-700">
+            <i className="bi bi-list text-5xl text-orange-700 mb-1 inline-block"></i>
             <h2 className="text-xl font-semibold mb-2">6 STAGE QUALITY TEST</h2>
-            <p className="text-gray-500">We ensure that all our products are authentic and sourced directly from manufacturers.</p>
+            <p className="text-xs">At WoodQart we ensure every plywood passed with different quality test team. The Core Team, Glue Team, Press Team, Sanding & MR Team, Finishing Team & Loading Team.</p>
           </div>
 
-          <div className="p-6 border rounded-lg">
-            <img src="/assets/assurance2.png" alt="" className="mx-auto mb-4"/>
+          <div className="p-6 border rounded-sm bg-white border-orange-700">
+            <img src="/assets/BWP.png" alt="" className="mx-auto mb-1 h-15 w-18"/>
             <h2 className="text-xl font-semibold mb-2">BWP & BWR</h2>
-            <p className="text-gray-500">We offer competitive pricing and promise the best deals on all our products.</p>
+            <p className="text-xs">WoodQart manufacture water Proof & Water Registant Products. From Plywood to Flush Doors all are products can be manufacture in BWP & BWR Grade.</p>
           </div>
 
-          <div className="p-6 border rounded-lg">
-            <img src="/assets/assurance3.png" alt="" className="mx-auto mb-4"/>
+          <div className="p-6 border rounded-sm bg-white border-orange-700">
+            <img src="/assets/Heat.png" alt="" className="mx-auto mb-1 h-15 w-18"/>
             <h2 className="text-xl font-semibold mb-2">HEAT RESISTANT</h2>
-            <p className="text-gray-500">Our logistics network ensures timely delivery to your doorstep.</p>
+            <p className="text-xs">Fire-related accident don't knock on your door before they occur, but we need to be prepared in the event of a fire hazard. WoodQart's fire resistant delays flame penetration through the sheet by at least 30 - 50 minutes.</p>
           </div>
 
-          <div className="p-6 border rounded-lg">
-            <img src="/assets/assurance4.png" alt="" className="mx-auto mb-4"/>
+          <div className="p-6 border rounded-sm bg-white border-orange-700">
+            <img src="/assets/Transport.png" alt="" className="mx-auto mb-1 h-15 w-18"/>
             <h2 className="text-xl font-semibold mb-2">On Time Delivery</h2>
-            <p className="text-gray-500">We prioritize our customers and strive to provide the best service experience.</p>
+            <p className="text-xs">WoodQart promises to deliver the finest quality and on time delivery anywhere in India. At woodQart we value our customer's trust and maintain a long and healthy relationship by delivery high quality and promised products. From manufacturing to delivery you can track and be updated with each and every step of your product stage.</p>
           </div>
         </div>
       </div>
@@ -198,7 +206,7 @@ function Home() {
       <div className="max-w-7xl mx-auto mt-10">
         <h1 className="text-3xl font-bold">Types of Woods & Uses</h1>
         <p className="text-gray-500">Discover various types woods use to manufacture plywood and uses.</p>
-        <div className="align-center mx-auto mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-3">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mt-8 max-w-5xl mx-auto place-items-center">
           <div>
             <img src="/assets/Eucalyptus-1.png" alt="" className="mx-auto mb-4"/>
           </div>
