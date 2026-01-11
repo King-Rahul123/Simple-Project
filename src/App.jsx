@@ -5,6 +5,8 @@ import Header from "./components/header";
 import Sidebar from "./components/sidebar";
 import Footer from "./components/footer";
 import Home from "./pages/Home";
+import Login from "./pages/Login";
+import Register from "./pages/Register";
 import About from "./pages/About";
 import Contact from "./pages/Contact-Us";
 import RightSidebar from "./components/rightsidebar";
@@ -22,6 +24,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact-us" element={<Contact />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
         </Routes>
 
         <Footer />
