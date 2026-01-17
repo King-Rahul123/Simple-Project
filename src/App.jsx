@@ -3,13 +3,13 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Header from "./components/header";
 import Sidebar from "./components/sidebar";
+import RightSidebar from "./components/rightsidebar";
 import Footer from "./components/footer";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import About from "./pages/About";
 import Contact from "./pages/Contact-Us";
-import RightSidebar from "./components/rightsidebar";
 
 function App() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
